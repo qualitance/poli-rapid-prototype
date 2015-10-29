@@ -1,0 +1,30 @@
+{
+  "name": "angular-openfb",
+  "main": "angular-openfb.js",
+  "authors": [
+    "Christophe Coenraets @ccoenraets"
+  ],
+  "description": "OpenFB module for AngularJS Apps",
+  "keywords": [
+    "openfb"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/lnmunhoz/angular-openfb",
+  "_release": "d6f60e64c3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d6f60e64c3af3bafed88aa82ae69cc4a4b4c2c50"
+  },
+  "_source": "git://github.com/lnmunhoz/angular-openfb.git",
+  "_target": "*",
+  "_originalSource": "angular-openfb",
+  "_direct": true
+}

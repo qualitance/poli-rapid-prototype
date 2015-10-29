@@ -1,0 +1,18 @@
+<ion-view view-title="Profile">
+  <ion-content>
+    <div ng-style="getUserBackground('cover')" class="profile-background">
+      <div class="cover">
+        <div class="user-profile-photo">
+          <img ng-src="{{user.picture.data.url}}" alt="user.name">
+        </div>
+        <h2>{{::user.name}}</h2>
+        <p>{{ ::user.about }}</p>
+      </div>
+    </div>
+
+    <div>
+      <i class="fa fa-building"></i>
+    </div>
+
+  </ion-content>
+</ion-view>

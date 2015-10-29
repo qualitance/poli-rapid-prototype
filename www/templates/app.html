@@ -1,0 +1,32 @@
+<!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+<ion-nav-bar class="bar-stable">
+  <ion-nav-back-button>
+  </ion-nav-back-button>
+</ion-nav-bar>
+
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!-- Dashboard Tab -->
+  <ion-tab title="Feed" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/app/feed">
+    <ion-nav-view name="tab-feed"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Chats Tab -->
+  <ion-tab title="Gallery" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/app/gallery">
+    <ion-nav-view name="tab-gallery"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="Profile" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/app/profile">
+    <ion-nav-view name="tab-profile"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
