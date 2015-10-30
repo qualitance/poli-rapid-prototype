@@ -22,7 +22,7 @@ angular.module('RapidSettings', ['openfb'])
     //};
 
     return {
-      fbKey: '695010000635803',
+      fbKey: '907995412612227',
       fbCallbackFile: 'http://localhost:8100/oauthcallback.html',
       fbServerCallbackFile: 'http://rapid.qualitance.com/oauthcallback.html',
 

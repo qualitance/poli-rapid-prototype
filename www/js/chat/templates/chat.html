@@ -1,0 +1,20 @@
+<ion-view view-title="Chat">
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">RP Chat - {{data.username}}</h1>
+        </ion-header-bar>
+        <ion-content delegate-handle="chatScrollHandler">
+            <div class="container">
+                <div class="bubble" ng-class="{'bubble--alt': msg.name == data.username }"
+                     ng-repeat="msg in data.messages">
+                    {{ msg.datetimeobj | date:'hh:mm:ss' }} <br/>
+                    <b>{{msg.name}}</b>: {{msg.text}}
+                </div>
+            </div>
+        </ion-content>
+        <ion-footer-bar class="bar-stable">
+            <input ng-model="message" type="text" class="col col-75">
+            <button class="col button button-dark" ng-click="sendMessage(message)">Send</button>
+        </ion-footer-bar>
+    </ion-pane>
+</ion-view>

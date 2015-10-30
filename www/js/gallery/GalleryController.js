@@ -5,6 +5,8 @@
 angular.module('starter.controllers')
   .controller('GalleryController', ['$scope', 'OpenFB',
     function($scope, OpenFB) {
+      console.log('GalleryController loaded');
+
       $scope.init = function() {
 
         OpenFB.get("/me/photos", {fields: 'id,name,picture'})
