@@ -9,7 +9,7 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/ion-gallery/dist/ion-gallery.css" rel="stylesheet">
     <link href="css/ionic.app.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
@@ -21,8 +21,13 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
+    <!-- libs -->
     <script src="lib/angular-openfb/angular-openfb.js"></script>
     <script src="lib/ion-gallery/dist/ion-gallery.min.js"></script>
+    <script src="staticLib/leaflet/leaflet.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="staticLib/leaflet/LeafletDirective.js"></script>
+    <script src="staticLib/igTruncate/igTruncate.js"></script>
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
@@ -38,6 +43,13 @@
     <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
     <script src="js/chat/ChatModule.js"></script>
     <script src="js/chat/ChatController.js"></script>
+
+    <!--map dependencies-->
+    <script src="js/map/MapModule.js"></script>
+    <script src="js/map/MapController.js"></script>
+    <script src="js/map/services/LocationService.js"></script>
+
+
 
   </head>
   <body ng-app="starter" id="main">
